@@ -12,9 +12,6 @@
         "url": "git+https://github.com/bradtraversy/chatcord.git"
     },
     "author": "Dave Lyndrex Millan",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/bradtraversy/chatcord/issues"
-    },
-    "homepage": "https://github.com/bradtraversy/chatcord#readme"
+    "license": "MIT"
+
 }
