@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ChitChat App</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="facebook">
+                <h1 style="color:rgb(0, 123, 255);">Facebook</h1>
+                <br>
+                <p style="color: black;">Facebook helps you connect and share with the people in your life.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <main class="join-main" style="float:right;">
+                <form action="chat.html">
+                    <div class="form-control">
+                        <br>
+                        <input type="text" name="username" id="username" placeholder="Enter username..." required />
+                    </div>
+                    <br>
+                    <div class="form-control">
+
+                        <select name="town" id="town">
+                            <option value=""></option>
+							<option value="Dalaguete">Dalaguete</option>
+							<option value="Medellin">Medellin</option>
+							<option value="Bantayan">Bantayan</option>
+							<option value="Pinamungajan">Pinamungajan</option>
+							<option value="Ginatilan">Ginatilan</option>
+							<option value="San Fernando">San Fernando</option>
+                            <option value="Bantayan">Bantayan</option>
+                            <option value="Malabuyoc">Malabuyoc</option>
+                            <option value="Talamban">Talamban</option>
+                            <option value="Argao">Argao</option>
+						</select>
+                    </div>
+                    <button type="submit" class="btn" id="btn2">Join Chat</button>
+
+                    <button type="button" class="btn" id="btn3">About me</button>
+                </form>
+                <center>
+                    <button class="btn" id="btn1" name="visit">Sign Up</button>
+                </center>
+                <br>
+                <br>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
